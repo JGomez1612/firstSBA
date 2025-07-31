@@ -1,0 +1,116 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    margin: auto;
+    margin-bottom: 50px ;
+    padding: 10px 10px;
+    background: rgb(220, 20, 60);
+    border-radius: 3px;
+}
+.logo {
+    width: 10%;
+    margin-top: 0px;
+    border-radius: 120px;
+}
+
+.nav-links {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15%;
+    padding: 0;
+    align-items: end;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.nav-links a:hover {
+    border: 3px solid black;
+    border-color:rgb(50, 86, 204) transparent;
+    font-size: 2.1rem;
+    transition-property: font-size;
+    transition-duration: .5s ;
+}
+
+.main_container {
+    display: flex;
+    margin: auto;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+    /* text-align: center; */
+    width: 100%;
+    height: 300px;
+}
+
+th{
+    font-size: 3rem;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+td{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.review {
+    width: 10%;
+}
+
+.section3 {
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+}
+
+.box2,
+.box3,
+.box4 {
+    font-size: 1.5rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+a{
+     text-decoration: none;
+}
+
+a:hover {
+    border: 3px solid black;
+    border-color:rgb(50, 86, 204) transparent;
+    font-size: 2.1rem;
+    transition-property: font-size;
+    transition-duration: .5s ;
+}
